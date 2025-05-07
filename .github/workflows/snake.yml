@@ -18,5 +18,3 @@ jobs:
         with:
           github_user_name: Sam06002
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          output_directory: output
-          output_filename: github-contribution-grid-snake.svg
