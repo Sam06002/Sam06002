@@ -9,8 +9,11 @@ jobs:
   snake:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - name: generate-snake-game-from-github-contribution-grid
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake animation
         uses: Platane/snk@v3.3.0
         with:
           user: Sam06002
@@ -22,3 +25,5 @@ jobs:
           padding: 10
           width: 1000
           height: 1000
+          output_directory: output
+          output_filename: github-contribution-grid-snake.svg
