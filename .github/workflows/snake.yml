@@ -16,14 +16,7 @@ jobs:
       - name: Generate snake animation
         uses: Platane/snk@v3.3.0
         with:
-          user: Sam06002
-          snake_color: '#000000'
-          background_color: '#ffffff'
-          border_radius: 10
-          hide_border: true
-          line_width: 2
-          padding: 10
-          width: 1000
-          height: 1000
+          github_user_name: Sam06002
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           output_directory: output
           output_filename: github-contribution-grid-snake.svg
