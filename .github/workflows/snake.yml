@@ -1,0 +1,24 @@
+name: Snake Animation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * *'  # Run at midnight every day
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Generate snake
+        uses: Platane/snk@v3.3.0
+        with:
+          user: Sam06002
+          snake_color: '#000000'
+          background_color: '#ffffff'
+          border_radius: 10
+          hide_border: true
+          line_width: 2
+          padding: 10
+          width: 1000
+          height: 1000
