@@ -11,9 +11,9 @@
 <!-- Pacman Animation -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman-contribution-graph.svg">
-    <img alt="Pacman eating commits" src="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman-contribution-graph.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman.svg">
+    <img alt="Pacman eating commits" src="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman.svg">
   </picture>
 </div>
 
