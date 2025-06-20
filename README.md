@@ -8,12 +8,17 @@
   <img alt="Snake animation" src="https://raw.githubusercontent.com/Sam06002/Sam06002/output/github-contribution-grid-snake.svg">
 </picture>
 
-<!-- Pacman Animation -->
+<!-- Typing Animation -->
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman.svg">
-    <img alt="Pacman eating commits" src="https://raw.githubusercontent.com/Sam06002/Sam06002/output/pacman.svg">
-  </picture>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7931E&center=true&vCenter=true&width=500&lines=Full+Stack+Developer;AI+%26+ML+Enthusiast;Problem+Solver;Always+Learning+New+Tech!" alt="Typing SVG" />
 </div>
+
+###
+
+<!-- Activity Graph -->
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sam06002&bg_color=282a36&color=79c0ff&line=bd93f9&point=ffb86c&area=true&hide_border=true" alt="Activity Graph" />
+</div>
+
+###
 
